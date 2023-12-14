@@ -1,0 +1,35 @@
+.img{
+    height: 200px;
+    width: 200px;
+}
+
+body{
+    background-color: black;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rot{
+    transform: rotate(315deg);
+}
+
+.up-imgs{
+    gap: 83px;
+    position: relative;
+    top: 55px;
+}
+
+.mid-imgs{
+    gap: 83px;
+    position: relative;
+}
+
+.dn-imgs{
+    gap: 83px;
+    position: relative;
+    top: -55px;
+}
